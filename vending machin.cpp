@@ -7,10 +7,8 @@ const int ITEM_COUNT = 6;  // Number of items in the vending machine
 
 // Item data stored in arrays
 string codes[ITEM_COUNT] = {"D1", "D2", "D3", "S1", "S2", "S3"}; // Codes for each item
-string names[ITEM_COUNT] = {                                      // Names of each item
-    "Cola", "Water", "Orange Juice",
-    "Crisps", "Biscuits", "Chocolate"
-};
+string names[ITEM_COUNT] = { "Cola", "Water", "Orange Juice",
+                             "Crisps", "Biscuits", "Chocolate"}; // Names of each item
 double prices[ITEM_COUNT] = {1.50, 1.00, 1.50, 0.75, 1.75, 1.25}; // Prices of each item
 int stock[ITEM_COUNT] = {5, 5, 5, 5, 5, 5};                        // Initial stock for each item
 
@@ -108,3 +106,4 @@ int main()
     cout << "Thank you for using snackco!\n"; // Exit message
     return 0;  // Exit program
 }
+
